@@ -28,20 +28,46 @@
     <tbody>
       <tr>
         <td>Chrome 43</td>
-        <td>"Name edit"</td>
+        <td>"name edit"</td>
       </tr>
       <tr>
-        <td>Firefox 37</td>
-        <td>"Name edit has autocomplete"</td>
+        <td>Firefox 38</td>
+        <td>"name edit has autocomplete"</td>
       </tr>
       <tr>
         <td>Internet Explorer 11</td>
-        <td>"Name edit"</td>
+        <td>"name edit"</td>
       </tr>
     </tbody>
   </table>
 
   <h2><code>label</code> hidden with CSS</h2>
+
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"name edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"name edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"name edit"</td>
+      </tr>
+    </tbody>
+  </table>
 
   <form>
     <label class="hidden" for="example-2">Name</label>
@@ -54,11 +80,63 @@
     <input type="text" id="example-3" name="example-3" />
   </form>
 
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"edit"</td>
+      </tr>
+    </tbody>
+  </table>
+
   <h2>No <code>label</code> with <code>title</code> attribute</h2>
 
   <form>
     <input type="text" id="example-4" title="Name" name="example-4" />
   </form>
+
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"name edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"name edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"name edit"</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h2>No <code>label</code> with <code>placeholder</code> attribute</h2>
 
@@ -66,11 +144,63 @@
     <input type="text" id="example-5" placeholder="Enter Name" name="example-5" />
   </form>
 
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"'Enter Name' edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"'Enter Name' edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"'Enter Name' edit"</td>
+      </tr>
+    </tbody>
+  </table>
+
   <h2>No <code>label</code> with <code>aria-label</code> attribute</h2>
 
   <form>
     <input type="text" id="example-6" aria-label="Name" name="example-6" />
   </form>
+
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"name edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"name edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"name edit"</td>
+      </tr>
+    </tbody>
+  </table>
 
   <h2>Implied <code>label</code></h2>
 
@@ -78,6 +208,32 @@
     <input type="text" id="example-7" name="example-7" />
     <input type="button" value="Search" />
   </form>
+
+  <h3>Results</h3>
+
+  <table>
+    <caption>NVDA 2015.2 Windows 8.1</caption>
+    <thead>
+      <tr>
+        <th>Browser</th>
+        <th>Result</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Chrome 43</td>
+        <td>"edit"</td>
+      </tr>
+      <tr>
+        <td>Firefox 38</td>
+        <td>"edit has autocomplete"</td>
+      </tr>
+      <tr>
+        <td>Internet Explorer 11</td>
+        <td>"edit"</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
 </html>
