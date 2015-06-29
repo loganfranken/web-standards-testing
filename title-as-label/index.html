@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Using title as label</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <h1>Using <code>title</code> as <code>label</code></h1>
+
+  <p>
+    The following tests explore using the <code>title</code> attribute
+    as an alternative to a standard <code>label</code> element for an
+    <code>input</code>.
+  </p>
+
+  <h2><code>input</code> and <code>label</code></h2>
+
+  <form>
+    <label for="example-1">Name</label>
+    <input type="text" id="example-1" name="example-1" />
+  </form>
+
+  <h2><code>label</code> hidden with CSS</h2>
+
+  <form>
+    <label class="hidden" for="example-2">Name</label>
+    <input type="text" id="example-2" name="example-2" />
+  </form>
+
+  <h2>No <code>label</code></h2>
+
+  <form>
+    <input type="text" id="example-3" name="example-3" />
+  </form>
+
+  <h2>No <code>label</code> with <code>title</code> attribute</h2>
+
+  <form>
+    <input type="text" id="example-4" title="Name" name="example-4" />
+  </form>
+
+  <h2>No <code>label</code> with <code>placeholder</code> attribute</h2>
+
+  <form>
+    <input type="text" id="example-5" placeholder="Enter Name" name="example-5" />
+  </form>
+
+  <h2>No <code>label</code> with <code>aria-label</code> attribute</h2>
+
+  <form>
+    <input type="text" id="example-6" aria-label="Name" name="example-6" />
+  </form>
+
+  <h2>Implied <code>label</code></h2>
+
+  <form>
+    <input type="text" id="example-7" name="example-7" />
+    <input type="button" value="Search" />
+  </form>
+
+</body>
+</html>
