@@ -12,8 +12,8 @@ attributes are sufficient replacements for a `label` in cases where the
 `label` is redundant.
 
 * [Discussion](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues/30)
-* [Tests](title-as-label/index.html)
-* [Results](title-as-label/results.html)
+* [Tests](http://loganfranken.github.io/web-standards-testing/title-as-label/index.html)
+* [Results](http://loganfranken.github.io/web-standards-testing/title-as-label/results.html)
 
 ### Image Replacement with Icon Fonts
 
@@ -21,5 +21,5 @@ Tests to determine if image replacement-style techniques should be used with
 icon fonts.
 
 * [Discussion](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues/31)
-* [Tests](icon-font-replacement/index.html)
-* [Results](icon-font-replacement/results.html)
+* [Tests](http://loganfranken.github.io/web-standards-testing/icon-font-replacement/index.html)
+* [Results](http://loganfranken.github.io/web-standards-testing/icon-font-replacement/results.html)
