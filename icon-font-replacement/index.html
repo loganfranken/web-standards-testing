@@ -3,6 +3,7 @@
 <head>
   <title>Using Image Replacement with Icon Fonts</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -15,7 +16,21 @@
     techniques should be used for icon fonts.
   </p>
 
-  
+  <h2>Standard Font Icon</h2>
+
+  <i class="fa fa-bars"></i>
+
+  <h2>Font Icon With <code>aria-label</code></h2>
+
+  <i class="fa fa-bars" aria-label="Menu"></i>
+
+  <h2>Font Icon With <code>title</code></h2>
+
+  <i class="fa fa-bars" title="Menu"></i>
+
+  <h2>Font Icon Using Replacement</h2>
+
+  <span class="icon menu-icon">Menu</span>
 
 </body>
 </html>

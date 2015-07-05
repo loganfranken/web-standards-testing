@@ -1,0 +1,21 @@
+.icon
+{
+  display: block;
+  line-height: 1em;
+  margin-top: -.75em;
+  text-decoration: none;
+  text-indent: -9999px;
+  width: 100%;
+}
+
+.icon::after
+{
+  display: block;
+  font-family: FontAwesome, sans-serif;
+  text-indent: 0;
+}
+
+.menu-icon::after
+{
+  content: "\f0c9";
+}
