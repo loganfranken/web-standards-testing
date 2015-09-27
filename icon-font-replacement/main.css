@@ -19,3 +19,12 @@
 {
   content: "\f0c9";
 }
+
+.image-replacement
+{
+  background: url(menu_image.png);
+  display: block;
+  height: 80px;
+  text-indent: -9999px;
+  width: 160px;
+}
