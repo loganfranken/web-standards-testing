@@ -1,11 +1,18 @@
 .icon
 {
   display: block;
+  color: #333;
   line-height: 1em;
   margin-top: -.75em;
   text-decoration: none;
   text-indent: -9999px;
   width: 100%;
+}
+
+a.fa
+{
+  color: #333;
+  text-decoration: none;
 }
 
 .icon::after
