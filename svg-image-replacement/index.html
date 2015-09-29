@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Using Image Replacement with Icon Fonts</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+  <h1>Using Image Replacement with Icon Fonts</h1>
+
+  <a href="results.html">View Results</a>
+
+  <p>
+    The following tests explore whether or not image replacement-style
+    techniques should be used with SVG.
+  </p>
+
+  <h1>Standard Header</h1>
+  <h2>Website Logo</h2>
+
+  <h1>Header with <code>img</code> Element Using PNG</h1>
+  <h2><img src="logo.png" alt="Website Logo" /></h2>
+
+  <h1>Header with Image Replacement Using PNG</h1>
+  <h2 class="image-replacement image-replacement-png">Website Logo</h2>
+
+  <h1>Header with <code>img</code> Element Using SVG</h1>
+  <h2><img src="logo.svg" alt="Website Logo" /></h2>
+
+  <h1>Header with Image Replacement Using SVG</h1>
+  <h2 class="image-replacement image-replacement-svg">Website Logo</h2>
+
+</body>
+</html>

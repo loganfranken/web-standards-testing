@@ -15,6 +15,15 @@ attributes are sufficient replacements for a `label` in cases where the
 * [Tests](http://loganfranken.github.io/web-standards-testing/title-as-label/index.html)
 * [Results](http://loganfranken.github.io/web-standards-testing/title-as-label/results.html)
 
+### Image Replacement with SVG
+
+Tests to determine if image replacement-style techniques should be used with
+SVG.
+
+* [Discussion](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues/31)
+* [Tests](http://loganfranken.github.io/web-standards-testing/svg-image-replacement/index.html)
+* [Results](http://loganfranken.github.io/web-standards-testing/svg-image-replacement/results.html)
+
 ### Image Replacement with Icon Fonts
 
 Tests to determine if image replacement-style techniques should be used with

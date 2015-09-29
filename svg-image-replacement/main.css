@@ -1,0 +1,17 @@
+.image-replacement
+{
+  display: block;
+  height: 65px;
+  text-indent: -9999px;
+  width: 347px;
+}
+
+.image-replacement-png
+{
+  background: url('logo.png');
+}
+
+.image-replacement-svg
+{
+  background: url('logo.svg') no-repeat;
+}
