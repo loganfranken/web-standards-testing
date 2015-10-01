@@ -1,12 +1,12 @@
 .icon
 {
-  display: block;
+  display: inline-block;
   color: #333;
   line-height: 1em;
   margin-top: -.75em;
   text-decoration: none;
   text-indent: -9999px;
-  width: 100%;
+  width: 1em;
 }
 
 a.fa
