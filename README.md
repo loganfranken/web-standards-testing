@@ -32,3 +32,12 @@ icon fonts.
 * [Discussion](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues/31)
 * [Tests](http://loganfranken.github.io/web-standards-testing/icon-font-replacement/index.html)
 * [Results](http://loganfranken.github.io/web-standards-testing/icon-font-replacement/results.html)
+
+### HTML5 Header Hierarchy
+
+Tests to determine how the HTML5 document outline algorithm works with
+screen readers.
+
+* [Discussion](https://github.com/ucsb-wsg/ucsb-wsg.github.io/issues/54)
+* [Tests](http://loganfranken.github.io/web-standards-testing/html5-header-hierarchy/index.html)
+* [Results](http://loganfranken.github.io/web-standards-testing/html5-header-hierarchy/results.html)
