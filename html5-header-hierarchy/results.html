@@ -14,16 +14,18 @@
   </p>
 
   <ul>
-    <li>Firefox 41, Chrome 46, and Internet Explorer 11 with NVDA 2015.3 on Windows 7</li>
-    <li>Firefox 41, Chrome 46, and Internet Explorer 11 with JAWS 16.0.4350 on Windows 7</li>
+    <li>Firefox 41, Chrome 46, and Microsoft Edge 20 with NVDA 2015.3 on Windows 10</li>
   </ul>
 
-  <!--
   <p>
-    On all platforms, the results were the same: "Menu" is always read,
-    except for the "Standard Font Icon" case, where the text isn't present.
+    With the following results:
   </p>
-  -->
+
+  <ul>
+    <li>HTML5 heading hierarchy not read properly in NVDA (i.e. nested <code>h1</code>s read as <code>h1</code>s)</li>
+    <li>Heading levels not read before reading header in Edge</li>
+    <li>Navigating by headers (using number keys) does not respect HTML5 document outline (i.e. pressing <kbd>1</kbd> in the HTML5 hierarchy example cycles through <em>all</em> headers)</li>
+  </ul>
 
 </body>
 </html>
